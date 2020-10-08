@@ -1,30 +1,20 @@
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="design.css">
+<html lang='pt-BR'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lampada IoT</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<h1 id="result">Resultado</h1>
-	
-	<img src="./Loff.png" id="luz1" />
-	<button type="button" onclick="fon()">Liga</button>
-	<button type="button" onclick="foff()">Desliga</button>
-	
-	<img src="./Loff.png" id="luz2" />
-	<button type="button" onclick="toggle()">on / off</button>
-	
-	<img src="./Loff.png" id="luz3" />
-	<button type="button" onclick="toggle1()">on / off</button>
-	
-	<img src="./Loff.png" id="luz4" />
-	<button type="button" onclick="toggle2()">on / off</button>
-	
-	<img src="./Loff.png" id="luz5" />
-	<button type="button" onclick="toggle3()">on / off</button>
-	
-	<img src="./Loff.png" id="luz6" />
-	<button type="button" onclick="toggle4()">on / off</button>
-	
-	
-	
-	<a href="./exercicios.html">Lista</a>
-	<script src="./lista1.js"></script>
+	<body>
+        <h1 id="header">Lâmpada IoT</h1>
+        <div class="toggleImg">
+            <img src="./off.jpg" id="luz1" onclick="toggle()" />
+        </div>
+        <div class="bGroup">
+            <button type="button" onclick="fon()">Liga</button>
+            <button type="button" onclick="foff()">Desliga</button>
+            <button type="button" onclick="blink()">Piscar</button>
+        </div>
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1179875/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        <script src="./script.js"></script>
+    </body>
 </html>

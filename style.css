@@ -1,0 +1,46 @@
+body {
+    background-image: radial-gradient(rgba(115, 87, 126, 0.705),#555 30%, #222, #111);
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+#header {
+    margin-top: 20px;
+    display: flex;
+    color: rgb(153, 88, 228);
+    justify-content: center;
+    
+}
+
+.toggleImg {
+    display: flex;
+    justify-content: center;
+}
+
+.bGroup {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+    border: 5px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 3px;
+    padding: 3px 0px;
+    font-family: monospace;
+    width: 100px;
+}
+
+iframe {
+    display: flex;
+    margin: 10px auto;
+}
+
