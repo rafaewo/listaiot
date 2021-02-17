@@ -1,4 +1,5 @@
 ## Sensor de luminosidade lâmpada virtual
+- https://rafaewo.github.io/listaiot/
 
 Sensor que mostra a quantidade de luminosidade recebida pela câmera frontal de um smartphone android utilizando *ThingSpeak* e *droidScript*.
 
